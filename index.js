@@ -1,5 +1,5 @@
 const io = require('socket.io-client')
-const config = require('./config.nextech')
+const config = require('./config')
 
 const socket = io(config.socket.server)
 
